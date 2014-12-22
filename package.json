@@ -1,0 +1,12 @@
+{
+    "name": "scrape-forbes",
+    "private": true,
+    "dependencies": {
+	"highland": "2.0.x",
+	"request": "2.44.x",
+	"csv-write-stream": "0.2.x"
+    },
+    "scripts": {
+        "start": "node forbes"
+    }
+}
