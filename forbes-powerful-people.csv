@@ -1,0 +1,76 @@
+position,rank,name,lastName,uri,imageUri,age,gender,country,category,organization
+1,1,Vladimir Putin,Putin,vladimir-putin,vladimir-putin,62,M,Russia,Politics,Russia
+2,2,Barack Obama,Obama,barack-obama,barack-obama,53,M,United States,Politics,United States
+3,3,Xi Jinping,Xi,xi-jinping,xi-jinping,61,,China,Politics,China
+4,4,Pope Francis,Francis,pope-francis,pope-francis,78,M,Vatican City State,Religion,Roman Catholic Church
+5,5,Angela Merkel,Merkel,angela-merkel,angela-merkel,60,F,Germany,Politics,Germany
+6,6,Janet Yellen,Yellen,janet-yellen,janet-yellen,68,F,United States,Finance,"Washington, United States"
+7,7,Bill Gates,Gates,bill-gates,bill-gates,59,M,United States,Technology,Bill &#38; Melinda Gates Foundation
+8,8,Mario Draghi,Draghi,mario-draghi,mario-draghi,67,M,Italy,Politics,European Central Bank
+9,9,Sergey Brin,Brin,sergey-brin,sergey-brin,41,M,United States,Technology,Google
+10,9,Larry Page,Page,larry-page,larry-page,41,M,United States,Technology,Google
+11,10,David Cameron,Cameron,david-cameron,david-cameron,48,,United Kingdom,Politics,United Kingdom
+12,11,Abdullah bin Abdul Aziz Al Saud,Al Saud,abdullah-bin-abdul-aziz-al-saud,abdullah-bin-abdul-aziz-al-saud,90,M,Saudi Arabia,Energy,Saudi Arabia
+13,12,Warren Buffett,Buffett,warren-buffett,warren-buffett,84,M,United States,Investments,Berkshire Hathaway
+14,13,Li Keqiang,Li,li-keqiang,li-keqiang,59,,,,China
+15,14,Carlos Slim Helu & family,Slim Helu,carlos-slim-helu,carlos-slim-helu,74,M,Mexico,Telecom,Am&#233;rica M&#243;vil
+16,15,Narendra Modi,Modi,narendra-modi,narendra-modi,64,M,India,Politics,India
+17,16,Jeff Bezos,Bezos,jeff-bezos,jeff-bezos,50,M,United States,Technology,Amazon.com
+18,17,Francois Hollande,Hollande,francois-hollande,francois-hollande,60,,France,,France
+19,18,Jamie Dimon,Dimon,jamie-dimon,jamie-dimon,58,,United States,Finance,JPMorgan Chase
+20,19,Ali Hoseini-Khamenei,Hoseini-Khamenei,ali-hoseini-khamenei,ali-hoseini-khamenei,75,,Iran,Religion,Iran
+21,20,Rex Tillerson,Tillerson,rex-tillerson,rex-tillerson,62,,United States,Energy,Exxon Mobil
+22,21,Jeffrey Immelt,Immelt,jeffrey-immelt,jeffrey-immelt,58,M,United States,Diversified,General Electric
+23,22,Mark Zuckerberg,Zuckerberg,mark-zuckerberg,mark-zuckerberg,30,M,United States,Technology,Facebook
+24,23,Michael Bloomberg,Bloomberg,michael-bloomberg,michael-bloomberg,72,M,United States,Media,Bloomberg
+25,24,Charles Koch,Koch,charles-koch,charles-koch,79,M,United States,Diversified,Koch Industries
+26,24,David Koch,Koch,david-koch,david-koch,74,M,United States,Diversified,Koch Industries
+27,25,Timothy Cook,Cook,tim-cook,tim-cook,54,M,United States,Technology,Apple
+28,26,Benjamin Netanyahu,Netanyahu,benjamin-netanyahu,benjamin-netanyahu,65,M,Israel,Politics,Israel
+29,27,Lloyd Blankfein,Blankfein,lloyd-blankfein,lloyd-blankfein,60,,United States,Investments,Goldman Sachs Group
+30,28,Li Ka-shing,Li,li-ka-shing,li-ka-shing,86,M,Hong Kong,Diversified,Hutchison Whampoa
+31,29,Doug McMillon,McMillon,doug-mcmillon,doug-mcmillon,48,M,United States,Fashion and Retail,Wal-Mart Stores
+32,30,Jack Ma,Ma,jack-ma,jack-ma,50,M,China,Technology,
+33,31,Dilma Rousseff,Rousseff,dilma-rousseff,dilma-rousseff,67,F,Brazil,Politics,Brazil
+34,32,Rupert Murdoch & family,Murdoch,rupert-murdoch,rupert-murdoch,83,M,United States,Media,News Corp
+35,33,Christine Lagarde,Lagarde,christine-lagarde,christine-lagarde,58,F,United States,Philanthropy/NGO,International Monetary Fund
+36,34,Akio Toyoda,Toyoda,akio-toyoda,akio-toyoda,58,,,,Toyota Motor
+37,35,Jay Y. Lee,Lee,jay-y-lee,jay-y-lee,46,M,South Korea,Diversified,Samsung Group
+38,35,Lee Kun-Hee,Lee,lee-kun-hee,lee-kun-hee,72,M,South Korea,Diversified,Samsung Group
+39,36,Mukesh Ambani,Ambani,mukesh-ambani,mukesh-ambani,57,M,India,Energy,Reliance Industries
+40,37,Khalifa bin Zayed Al-Nahyan,Al-Nahyan,khalifa-bin-zayed-al-nahyan,khalifa-bin-zayed-al-nahyan,66,M,United Arab Emirates,Politics,United Arab Emirates
+41,38,Masayoshi Son,Son,masayoshi-son,masayoshi-son,57,M,Japan,Telecom,Softbank
+42,39,Larry Fink,Fink,larry-fink,larry-fink,62,,United States,Finance,BlackRock
+43,40,Ban Ki-moon,Ki-moon,ban-ki-moon,ban-ki-moon,70,,Switzerland,Philanthropy/NGO,United Nations
+44,41,Robin Li,Li,robin-li,robin-li,46,M,China,Technology,Baidu
+45,42,Igor Sechin,Sechin,igor-sechin,igor-sechin,54,,Russia,Energy,Rosneft
+46,43,Ding Xuedong,Ding,ding-xuedong,ding-xuedong,54,M,China,Economy,China
+47,44,Bill Clinton,Clinton,bill-clinton,bill-clinton,68,,United States,Politics,"Bill, Hillary &#38; Chelsea Clinton Foundation"
+48,45,Jim Yong Kim,Kim,jim-yong-kim,jim-yong-kim,55,,United States,Philanthropy/NGO,World Bank
+49,46,Park Geun-hye,Park,park-geun-hye,park-geun-hye,62,F,South Korea,Politics,South Korea
+50,47,Alexey Miller,Miller,alexey-miller,alexey-miller,52,,Russia,Oil,Gazprom
+51,48,Haruhiko Kuroda,Kuroda,haruhiko-kuroda,haruhiko-kuroda,70,M,,Economy,Japan
+52,49,Kim Jong-un,Kim,kim-jong-un,kim-jong-un,31,,North Korea,Politics,North Korea
+53,50,Ali Al-Naimi,Al-Naimi,ali-al-naimi,ali-al-naimi,79,M,Saudi Arabia,Energy,Saudi Arabia
+54,51,Abdel el-Sisi,el-Sisi,abdel-el-sisi,abdel-el-sisi,60,,Egypt,Politics,Egypt
+55,52,Elon Musk,Musk,elon-musk,elon-musk,43,M,United States,Automotive,Space Exploration Technologies Corp.
+56,53,Ma Huateng,Ma,ma-huateng,ma-huateng,43,M,China,Technology,
+57,54,Abu Bakr al-Baghdadi,al-Baghdadi,abu-bakr-al-baghdadi,abu-bakr-al-baghdadi,43,,,,Islamic State in Iraq and Syria
+58,55,Ginni Rometty,Rometty,ginni-rometty,ginni-rometty,56,F,United States,Technology,IBM
+59,56,Len Blavatnik,Blavatnik,len-blavatnik,len-blavatnik,57,M,United Kingdom,Energy,
+60,57,Lakshmi Mittal,Mittal,lakshmi-mittal,lakshmi-mittal,64,M,United Kingdom,Metals & Mining,ArcelorMittal (ADR)
+61,58,Martin Winterkorn,Winterkorn,martin-winterkorn,martin-winterkorn,67,,Germany,Automotive,Volkswagen Group
+62,59,Bernard Arnault & family,Arnault,bernard-arnault,bernard-arnault,65,M,France,Fashion and Retail,LVMH Moet Hennessy Louis Vuitton
+63,60,Enrique Pena Nieto,Pena Nieto,enrique-pena-nieto,enrique-pena-nieto,48,,Mexico,Politics,Mexico
+64,61,Alisher Usmanov,Usmanov,alisher-usmanov,alisher-usmanov,61,M,Russia,Metals & Mining,Metalloinvest
+65,62,Mary Barra,Barra,mary-barra,mary-barra,52,F,United States,Automotive,General Motors
+66,63,Shinzo Abe,Abe,shinzo-abe,shinzo-abe,60,,Japan,Politics,Japan
+67,64,Satya Nadella,Nadella,satya-nadella-1,satya-nadella-1,47,M,United States,Technology,Microsoft
+68,65,John Roberts,Roberts,john-roberts,john-roberts,59,,United States,Politics,United States
+69,66,Gina Rinehart,Rinehart,gina-rinehart,gina-rinehart,60,F,Australia,Metals & Mining,Hancock Prospecting
+70,67,Margaret Chan,Chan,margaret-chan,margaret-chan,67,F,Switzerland,Philanthropy/NGO,World Health Organization
+71,68,Aliko Dangote,Dangote,aliko-dangote,aliko-dangote,57,M,Nigeria,Manufacturing,Dangote Group
+72,69,Jeffrey Gundlach,Gundlach,jeffrey-gundlach,jeffrey-gundlach,,M,United States,Finance,DoubleLine Capital
+73,70,Joseph Blatter,Blatter,joseph-blatter,joseph-blatter,78,,Switzerland,Sports,FIFA
+74,71,Terry Gou,Gou,terry-gou,terry-gou,64,M,Taiwan,Technology,Hon Hai Precision
+75,72,Yngve Slyngstad,Slyngstad,yngve-slyngstad,yngve-slyngstad,52,,Norway,Finance,Norway
