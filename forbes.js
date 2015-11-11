@@ -6,8 +6,9 @@ var fs = require('fs')
 var lists = [
     {type: 'person', year: 0, uri: 'rtb'}, // real-time billionaires
     {type: 'person', year: 0, uri: 'rtrl'}, // real-time rich list, aka. the 400
-    {type: 'person', year: 2014, uri: 'powerful-people'},
-    {type: 'person', year: 2014, uri: 'hedge-fund-managers'}
+    {type: 'person', year: 2015, uri: 'powerful-people'},
+    {type: 'person', year: 2015, uri: 'hedge-fund-managers'},
+    {type: 'person', year: 2015, uri: 'china-billionaires' }
 ]
 
 function retrieve(query, callback) {
