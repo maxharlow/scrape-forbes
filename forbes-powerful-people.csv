@@ -48,14 +48,14 @@ position,rank,name,lastName,uri,imageUri,age,gender,country,title,category,organ
 47,46,Kim Jong-un,Kim,kim-jong-un,kim-jong-un,32,,North Korea,"Supreme Leader, North Korea",Politics,North Korea,true
 48,47,Igor Sechin,Sechin,igor-sechin,igor-sechin,55,,Russia,"Chairman, Rosneft",Energy,Rosneft,false
 49,48,Ma Huateng,Ma,ma-huateng,ma-huateng,44,M,China,,Technology,,
-50,49,Abdel el-Sisi,el-Sisi,abdel-el-sisi,abdel-el-sisi,60,,Egypt,"President, Egypt",Politics,Egypt,true
+50,49,Abdel el-Sisi,el-Sisi,abdel-el-sisi,abdel-el-sisi,61,,Egypt,"President, Egypt",Politics,Egypt,true
 51,50,Haruhiko Kuroda,Kuroda,haruhiko-kuroda,haruhiko-kuroda,71,M,,"Governor, Bank of Japan, Japan",Economy,Japan,true
 52,51,Masayoshi Son,Son,masayoshi-son,masayoshi-son,58,M,Japan,"CEO, Softbank",Telecom,Softbank,false
 53,52,Enrique Pena Nieto,Pena Nieto,enrique-pena-nieto,enrique-pena-nieto,49,,Mexico,"President, Mexico",Politics,Mexico,true
 54,53,Ali Al-Naimi,Al-Naimi,ali-al-naimi,ali-al-naimi,80,M,Saudi Arabia,"Oil Minister, Saudi Arabia",Energy,Saudi Arabia,true
 55,54,Alexey Miller,Miller,alexey-miller,alexey-miller,53,,Russia,"CEO, Gazprom",Oil,Gazprom,false
 56,55,Lakshmi Mittal,Mittal,lakshmi-mittal,lakshmi-mittal,65,M,United Kingdom,"Chairman and CEO, ArcelorMittal (ADR)",Metals & Mining,ArcelorMittal (ADR),false
-57,56,Robin Li,Li,robin-li,robin-li,46,M,China,"Founder and CEO, Baidu",Technology,Baidu,false
+57,56,Robin Li,Li,robin-li,robin-li,47,M,China,"Founder and CEO, Baidu",Technology,Baidu,false
 58,57,Abu Bakr al-Baghdadi,al-Baghdadi,abu-bakr-al-baghdadi,abu-bakr-al-baghdadi,44,,,"Self-proclaimed caliph, Islamic State in Iraq and Syria",,Islamic State in Iraq and Syria,false
 59,58,Hillary Clinton,Clinton,hillary-clinton,hillary-clinton,68,F,United States,"Presidential candidate, United States",Politics,United States,true
 60,59,Michael Dell,Dell,michael-dell,michael-dell,50,M,United States,"Chairman and CEO, Dell",Technology,Dell,false
