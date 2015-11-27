@@ -4,7 +4,7 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 3,3,Ma Huateng,Ma,ma-huateng,ma-huateng,17600,44,internet,Technology,M
 4,4,Lei Jun,Lei,lei-jun,lei-jun,13200,45,smartphones,Technology,M
 5,5,Wang Wenyin,Wang,wang-wenyin,wang-wenyin,12100,47,"mining, copper products",Metals & Mining,M
-6,6,Robin Li,Li,robin-li,robin-li,10400,46,internet search,Technology,M
+6,6,Robin Li,Li,robin-li,robin-li,10400,47,internet search,Technology,M
 7,7,He Xiangjian,He,he-xiangjian,he-xiangjian,9300,73,home appliances,Manufacturing,M
 8,8,Hui Ka Yan,Hui,hui-ka-yan,hui-ka-yan,8700,57,real estate,Real Estate,M
 9,9,Liu Qiangdong,Liu,liu-qiangdong,liu-qiangdong,7800,41,e-commerce,Technology,M
@@ -87,7 +87,7 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 86,83,Xiong Xuqiang,Xiong,xiong-xuqiang,xiong-xuqiang,2400,59,real estate,Real Estate,M
 87,87,Jiang Wei,Jiang,jiang-wei,jiang-wei,2300,53,pharmaceuticals,Healthcare,M
 88,87,Liu Zhiqiang,Liu,liu-zhiqiang,liu-zhiqiang,2300,51,conglomerate,Diversified,M
-89,89,Du Jiangtao,Du,du-jiangtao,du-jiangtao,2250,45,chemicals,Manufacturing,M
+89,89,Du Jiangtao,Du,du-jiangtao,du-jiangtao,2250,46,chemicals,Manufacturing,M
 90,90,Cai Kui,Cai,cai-kui,cai-kui,2200,52,real estate,Real Estate,M
 91,91,Zhou Yahui,Zhou,zhou-yahui-1,no-pic,2180,38,online games,Technology,M
 92,92,Ma Xingtian,Ma,ma-xingtian,ma-xingtian,2150,46,pharmaceuticals,Medicine,M
@@ -105,7 +105,7 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 104,104,Wu Liangding,Wu,wu-liangding,no-pic,1970,69,wheel production,Automotive,M
 105,105,Fu Meicheng,Fu,fu-meicheng,fu-meicheng,1960,58,"TV shows, movies",Media,M
 106,105,Xiao Wenge,Xiao,xiao-wenge,xiao-wenge,1960,48,entertainment,Media,M
-107,107,Lin Tianfu,Lin,lin-tianfu,lin-tianfu,1950,53,footwear and apparel,Fashion and Retail,M
+107,107,Tianfu Lin,Lin,tianfu-lin,no-pic,1950,53,"footwear, apparel",Fashion and Retail,M
 108,107,Lo Siu Yu,Lo,lo-siu-yu,no-pic,1950,45,conglomerate,Diversified,M
 109,107,Zhang Guiping,Zhang,zhang-guiping,zhang-guiping,1950,64,real estate,Real Estate,M
 110,110,Li Shuirong,Li,li-shuirong,li-shuirong,1940,59,petrochemicals,Manufacturing,M
@@ -203,13 +203,13 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 202,202,Fan Zhaoxia,Fan,fan-zhaoxia,no-pic-female,1360,48,photovoltaic equipment,Energy,F
 203,202,Li Fuchao,Li,li-fuchao,no-pic,1360,57,auto parts,Automotive,M
 204,202,Wei Shaojun,Wei,wei-shaojun,wei-shaojun,1360,52,real estate,Real Estate,M
-205,202,Yuan Fugen,Yuan,yuan-fugen,no-pic,1360,64,metal processing,,M
+205,202,Yuan Fugen,Yuan,yuan-fugen,no-pic,1360,65,metal processing,,M
 206,206,Zhang Huang,Huang,zhang-huang,no-pic,1350,39,Meizu,,
 207,206,Lin Bin,Lin,lin-bin,lin-bin,1350,47,smartphones,Technology,M
 208,206,Liu Xuejing,Liu,liu-xuejing,liu-xuejing,1350,64,"copper, poultry",Diversified,M
 209,206,Ye Cheng,Ye,ye-cheng,no-pic,1350,53,diversified,Diversified,M
 210,206,Yu Rong,Yu,yu-rong,no-pic,1350,43,physical examination,,M
-211,211,Huang Qiaoling,Huang,huang-qiaoling,huang-qiaoling,1340,56,tourism,,M
+211,211,Huang Qiaoling,Huang,huang-qiaoling,huang-qiaoling,1340,57,tourism,,M
 212,212,Cao Kejian,Cao,cao-kejian,cao-kejian,1320,53,air compressors,Manufacturing,M
 213,212,Wen Jianping,Wen,wen-jianping,wen-jianping,1320,53,sewage treatment,Service,M
 214,212,Yi Zheng,Yi,yi-zheng,no-pic,1320,45,software,Technology,M
@@ -259,7 +259,7 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 258,256,Weiming Pan,Pan,weiming-pan,no-pic,1160,51,real estate,,M
 259,256,Su Weizhong,Su,su-weizhong,no-pic,1160,47,oil,,M
 260,256,Xia Zuoquan,Xia,xia-zuoquan,xia-zuoquan,1160,53,automobiles,,M
-261,261,Chen Qingzhou,Chen,chen-qingzhou,no-pic,1150,49,wireless equipment,Telecom,M
+261,261,Chen Qingzhou,Chen,chen-qingzhou,no-pic,1150,50,wireless equipment,Telecom,M
 262,261,Fu Kwan,Fu,fu-kwan,fu-kwan,1150,58,diversified,Diversified,M
 263,261,Zeng Kaitian,Zeng,zeng-kaitian,no-pic,1150,40,online games,,M
 264,264,Ren Zhengfei,Ren,ren-zhengfei,ren-zhengfei,1140,71,telecom equipment,Telecom,M
@@ -268,7 +268,7 @@ position,rank,name,lastName,uri,imageUri,worth,age,source,industry,gender
 267,266,Li Yihai,Li,li-yihai,no-pic,1130,52,pharmaceuticals,Medicine,M
 268,266,Wei Qi,Wei,wei-qi,wei-qi,1130,60,chemicals,Manufacturing,M
 269,269,Chen Haibin,Chen,chen-haibin,chen-haibin,1120,46,healthcare,,M
-270,269,Chen Qixing,Chen,chen-qixing,no-pic,1120,55,"telecommunication, manufacturing",Technology,M
+270,269,Chen Qixing,Chen,chen-qixing,no-pic,1120,56,"telecommunication, manufacturing",Technology,M
 271,269,Huang Xiaojie,Huang,huang-xiaojie-1,huang-xiaojie-1,1120,37,investments,,M
 272,269,Li Denghai,Li,li-denghai,li-denghai,1120,66,seed production,Food and Beverage,M
 273,269,Sun Xiang,Sun,sun-xiang,no-pic,1120,,Steel,,M
