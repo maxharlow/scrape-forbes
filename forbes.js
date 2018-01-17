@@ -1,31 +1,39 @@
-var request = require('request')
-var highland = require('highland')
-var csvWriter = require('csv-write-stream')
-var fs = require('fs')
+const FS = require('fs')
+const Request = require('request')
+const Highland = require('highland')
+const CSVWriter = require('csv-write-stream')
 
-var lists = [
-    {type: 'person', year: 0, uri: 'rtb'}, // real-time billionaires
-    {type: 'person', year: 0, uri: 'rtrl'}, // real-time rich list, aka. the 400
-    {type: 'person', year: 2015, uri: 'powerful-people'},
-    {type: 'person', year: 2015, uri: 'hedge-fund-managers'},
-    {type: 'person', year: 2015, uri: 'china-billionaires' }
+const lists = [
+    { type: 'person', year: 2017, uri: 'billionaires' },
+    { type: 'person', year: 2017, uri: 'hedge-fund-managers' },
+    { type: 'person', year: 2017, uri: 'china-billionaires' },
+    { type: 'person', year: 0, uri: 'rtb' }, // real-time billionaires
+    { type: 'person', year: 0, uri: 'rtrl' }, // real-time rich list, aka. the 400
 ]
 
-function retrieve(query, callback) {
-    var data = {
-	uri: 'http://www.forbes.com/ajax/list/data',
-	qs: query
-    }
-    request(data, function (error, response, body) {
-	var errorStatus = (response.statusCode >= 400) ? new Error(response.statusCode) : null
-	callback(error || errorStatus, body)
+const http = Highland.wrapCallback((location, callback) => {
+    return Request(location, (error, response) => {
+        const failure = error ? error : (response.statusCode >= 400) ? new Error(response.statusCode) : null
+        callback(failure, response)
     })
+})
+
+function locate(list) {
+    return {
+        uri: 'http://www.forbes.com/ajax/list/data',
+        qs: list
+    }
 }
 
-lists.map(function (list) {
-    highland([list])
-	.flatMap(highland.wrapCallback(retrieve))
-	.flatMap(JSON.parse)
-	.through(csvWriter())
-	.pipe(fs.createWriteStream('forbes-' + list.uri + '.csv'))
+function parse(response) {
+    return JSON.parse(response.body)
+}
+
+lists.map(list => {
+    Highland([list])
+        .map(locate)
+        .flatMap(http)
+        .flatMap(parse)
+        .through(CSVWriter())
+        .pipe(FS.createWriteStream('forbes-' + list.uri + '.csv'))
 })

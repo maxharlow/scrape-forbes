@@ -1,8 +1,8 @@
 Scrape Forbes
 =============
 
-[Forbes] (http://www.forbes.com/) publish a number of [lists] (http://www.forbes.com/lists/). This scrapes each into a CSV.
+[Forbes](https://www.forbes.com/) publish a number of [lists](https://www.forbes.com/lists). This scrapes each into a CSV.
 
-Requires a recent version of [Node JS] (http://nodejs.org/).
+Requires [Node](https://nodejs.org/).
 
-Install the dependencies with `npm install`, then run `node forbes`.
+Install the dependencies with `npm install`, then run `node forbes`. Produces a file for each list.
