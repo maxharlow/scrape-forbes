@@ -1,7 +1,9 @@
 Scrape Forbes
 =============
 
-[Forbes](https://www.forbes.com/) publish a number of [lists](https://www.forbes.com/lists). This scrapes each into a CSV.
+[Forbes](https://www.forbes.com/) publish a number of [lists](https://www.forbes.com/lists).
+
+This scrapes each list into a CSV.
 
 Requires [Node](https://nodejs.org/).
 
