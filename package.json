@@ -2,8 +2,9 @@
     "name": "scrape-forbes",
     "private": true,
     "dependencies": {
-        "highland": "2.11.x",
-        "request": "2.83.x",
-        "csv-write-stream": "2.0.x"
+        "axios": "0.19.x",
+        "fs-extra": "8.1.x",
+        "ix": "2.5.x",
+        "papaparse": "5.1.x"
     }
 }
