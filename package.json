@@ -5,6 +5,6 @@
         "axios": "0.19.x",
         "fs-extra": "8.1.x",
         "ix": "2.5.x",
-        "papaparse": "5.1.x"
+        "papaparse": "5.3.x"
     }
 }
