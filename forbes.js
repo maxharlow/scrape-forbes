@@ -1,7 +1,6 @@
-const Ix = require('ix')
-const Axios = require('axios')
-const PapaParse = require('papaparse')
-const FSExtra = require('fs-extra')
+import FSExtra from 'fs-extra'
+import Axios from 'axios'
+import Scramjet from 'scramjet'
 
 const lists = [
     { type: 'person', year: 2017, uri: 'forbes-400' },               // American richest 400
@@ -65,35 +64,18 @@ function parse(response) {
     })
 }
 
-function csv() {
-    let headerWritten = false
-    return function* (record) {
-        if (!headerWritten) {
-            const header = PapaParse.unparse([Object.keys(record)])
-            yield header + '\n'
-            headerWritten = true
-        }
-        const entry = PapaParse.unparse([Object.values(record)])
-        yield entry + '\n'
-    }
-}
-
-async function write(filename) {
-    await FSExtra.remove(filename)
-    return contents => FSExtra.appendFile(filename, contents)
-}
-
 async function run() {
-    await Ix.AsyncIterable.from(lists)
-        .forEach(async item => {
-            Ix.AsyncIterable.from([item])
-                .map(locate)
-                .map(request)
-                .flatMap(parse)
-                .flatMap(csv())
-                .forEach(await write(`forbes-${item.uri}.csv`))
-        })
-        .finally(() => console.log('Done!'))
+    const processes = lists.map(list => {
+        const process = Scramjet.DataStream.from([list])
+            .map(locate)
+            .map(request)
+            .flatMap(parse)
+            .CSVStringify()
+        process.pipe(FSExtra.createWriteStream(`forbes-${list.uri}.csv`))
+        return process.whenEnd()
+    })
+    await Promise.all(processes)
+    console.log('Done!')
 }
 
 run()
