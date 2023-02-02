@@ -3,8 +3,8 @@
     "type": "module",
     "private": true,
     "dependencies": {
-        "axios": "0.26.x",
-        "fs-extra": "10.0.x",
+        "axios": "1.3.x",
+        "fs-extra": "11.1.x",
         "scramjet": "4.36.x"
     }
 }
